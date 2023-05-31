@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Link Dispenser</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="/server.js"> </script>
+</head>
+<body>
+  <div class="container">
+    <h1>Link Dispenser</h1>
+    <div class="form-group">
+      <label for="service-dropdown">Select a service:</label>
+      <select id="service-dropdown" class="select-box">
+        <option value="Rammerhead">Rammerhead</option>
+        <option value="Incognito">Incognito</option>
+        <option value="Bare UV">Bare UV</option>
+        <option value="Nebula">Nebula</option>
+        <option value="Holy Unblocker">Holy Unblocker</option>
+        <option value="Kazwire">Kazwire</option>
+      </select>
+    </div>
+    <div class="button-container">
+      <button id="dispense-button" class="button">Dispense Link</button>
+    </div>
+    <div id="output" class="output-container"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
