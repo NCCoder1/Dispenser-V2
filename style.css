@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  color: #333;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.select-box {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  appearance: none; /* Remove default arrow */
+  background-color: #f7f7f7; /* Background color */
+  color: #333; /* Text color */
+  font-size: 16px; /* Text size */
+  font-weight: normal; /* Text weight */
+  text-align: center; /* Center the options */
+}
+
+.select-box:focus {
+  outline: none; /* Remove focus outline */
+  border-color: #4CAF50; /* Border color when focused */
+}
+
+.select-box option {
+  background-color: #fff; /* Option background color */
+  color: #333; /* Option text color */
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.output-container {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.output {
+  font-weight: bold;
+}
+
+.error-message {
+  color: #f44336;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+.link-output {
+  font-weight: bold;
+  color: green;
+}
+
+.link-output.error {
+  color: red;
+}
+
+option:hover{
+  background-color:#4CAF50;
+}
